@@ -1,0 +1,4 @@
+# Exclude test files from published package
+dist/test/
+src/test/
+*.tsbuildinfo

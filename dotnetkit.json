@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sdk": {
+    "version": "8.0.100",
+    "rollForward": "latestFeature",
+    "allowPrerelease": false
+  },
+  "runtimes": [],
+  "workloads": [],
+  "tools": [],
+  "nuget": {
+    "sources": [
+      "https://api.nuget.org/v3/index.json"
+    ]
+  },
+  "tasks": {
+    "build": "dotnet build",
+    "test": "dotnet test"
+  },
+  "policies": {
+    "autoInstall": false,
+    "network": "online",
+    "confirmation": true
+  }
+}

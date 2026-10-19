@@ -1,0 +1,43 @@
+{
+  "name": "dotnetkit",
+  "version": "0.1.0",
+  "description": "Zero-admin, reproducible .NET toolchain and SDK manager via npm, inspired by Microsoft dotnetup.",
+  "author": "Tu Van Cong <ctv.studio.dev@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "dotnetkit": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "!dist/test",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test dist/test/*.test.js",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "dotnet",
+    "dotnetup",
+    "toolchain",
+    "sdk-manager",
+    "version-manager",
+    "dotnet-sdk",
+    "reproducible-builds",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
