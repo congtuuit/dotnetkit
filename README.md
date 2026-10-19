@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/dotnetkit"><img src="https://img.shields.io/npm/v/dotnetkit?color=blue&style=flat-square" alt="npm version"></a>
   <a href="https://www.npmjs.com/package/dotnetkit"><img src="https://img.shields.io/npm/dm/dotnetkit?style=flat-square" alt="npm downloads"></a>
-  <a href="https://github.com/dotnetkit/dotnetkit/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/dotnetkit?style=flat-square" alt="license"></a>
+  <a href="https://github.com/congtuuit/dotnetkit/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/dotnetkit?style=flat-square" alt="license"></a>
   <a href="https://nodejs.org"><img src="https://img.shields.io/node/v/dotnetkit?style=flat-square" alt="node compatibility"></a>
 </p>
 

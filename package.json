@@ -8,6 +8,14 @@
   "bin": {
     "dotnetkit": "dist/cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/congtuuit/dotnetkit.git"
+  },
+  "homepage": "https://github.com/congtuuit/dotnetkit#readme",
+  "bugs": {
+    "url": "https://github.com/congtuuit/dotnetkit/issues"
+  },
   "files": [
     "dist",
     "!dist/test",
